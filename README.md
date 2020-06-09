@@ -9,6 +9,31 @@ Environment
 * Visual Studio 2019 (or later)  
 * CMake 3.15.4 (latest release is preferred)  
 
+How To Build and Install
+------------------------
+Run following commands at a command prompt with administrative privileges.  
+The ycapture will be built and installed.
+```
+git clone https://github.com/UnaNancyOwen/ycapture.git
+cd ycapture
+mkdir build
+cd build
+cmake -G "Visual Studio 16 2019" -A x64 -DCMAKE_INSTALL_PREFIX="C:/Program Files/ycapture" ..
+cmake --build . --config Release
+cmake --install .
+```
+
+How To Regist DLL and Run Test Program
+--------------------------------------
+Run following commands at a command prompt with administrative privileges.  
+The testclient is input sample image that red band with color changes over time is to virtual video capture source of DirectShow.  
+You can capture it in another application such as VLC.  
+```
+cd C:/Program Files/ycapture/bin
+regsvr32 ycapture.dll
+testclient.exe
+```
+
 License
 -------
 Copyright &copy; 2020 Tsukasa SUGIURA  
