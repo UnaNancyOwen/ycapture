@@ -21,10 +21,11 @@ set( YCAPTURE_SOURCE
     ycapture.cpp
 )
 
-set( CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON )
-add_library( ycapture SHARED ${YCAPTURE_HEADER} ${YCAPTURE_SOURCE} )
+add_library( ycapture SHARED ${YCAPTURE_HEADER} ${YCAPTURE_SOURCE} ycapture.def )
+set( CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} /DEF:${CMAKE_CURRENT_SOURCE_DIR}/ycapture.def" )
 add_definitions( -DUNICODE )
 add_definitions( -D_UNICODE )
+add_definitions( -D_USRDLL )
 target_include_directories( ycapture PRIVATE "./" )
 target_include_directories( ycapture PRIVATE "../baseclasses/" )
 target_link_libraries( ycapture PRIVATE strmbase strmiids.lib winmm.lib )
