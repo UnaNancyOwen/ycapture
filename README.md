@@ -3,6 +3,7 @@ ycapture with CMake
 
 This repository contains the source code for building ycapture using CMake.  
 Please note this is not to guarantee same behavior as the original.  
+Special Thanks, Satoshi YAZAWA@YzwLab.  
 
 Environment
 -----------
@@ -40,6 +41,7 @@ Copyright &copy; 2020 Tsukasa SUGIURA
 Distributed under the [MIT License](http://www.opensource.org/licenses/mit-license.php "MIT License | Open Source Initiative").  
 
 Original License  
+
 * ycapture | YzwLab  
   Copyright &copy; 2010 Satoshi YAZAWA  
   Distributed under the [MIT License](http://www.opensource.org/licenses/mit-license.php "MIT License | Open Source Initiative").  
