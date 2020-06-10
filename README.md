@@ -48,7 +48,7 @@ Original License
 
 * DirectShow Base Classes | Microsoft  
   Copyright &copy; 1992-2001 Microsoft Corporation  
-  https://www.microsoft.com/en-us/download/details.aspx?id=8442  
+  Distributed under the [MIT License](http://www.opensource.org/licenses/mit-license.php "MIT License | Open Source Initiative").  
 
 Contact
 -------
@@ -61,8 +61,5 @@ Reference
 * ycapture | YzwLab  
   <http://yzwlab.net/ycapture/>
 
-* Microsoft Windows SDK for Windows 7 and .NET Framework 4 (ISO) | Microsoft  
-  <https://www.microsoft.com/en-us/download/details.aspx?id=8442>  
-
-* DirectShow Base Classes | Microsoft Docs  
-  <https://docs.microsoft.com/en-us/windows/win32/directshow/directshow-base-classes>
+* DirectShow Base Classes | GitHub - microsoft/Windows-classic-samples  
+  <https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/directshow/baseclasses>  
